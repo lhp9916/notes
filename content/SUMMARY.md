@@ -19,6 +19,7 @@
   - [vim 常用的命令](./linux/vim.md)
 * 其他
   - [nginx 配置虚拟主机](./nginx/vhost.md)
+  - [nginx SSL 配置](./nginx/ssl.md)
   - [如何选择开源许可证？](./License/how-to-select.md)
   - [Restful API](./Restful-API/introduction.md)
   - [git 打标签](./git/tag.md)
