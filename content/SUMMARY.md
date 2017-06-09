@@ -4,6 +4,7 @@
 * Android
   - [循环任务](./android/postDelayed.md)
   - [分类整理 layout 布局文件](./android/layout-split.md)
+  - [Android 的拖放机制](./android/drag.md)
 * Web 前端
   - [跨域请求](./front-end/cors.md)
   - [gulp 压缩图片](./front-end/gulp-imagemin.md)
