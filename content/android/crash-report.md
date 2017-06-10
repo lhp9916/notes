@@ -1,5 +1,5 @@
 # 集成[腾讯Bugly](https://bugly.qq.com/v2/index)服务
-![](./_image/2017-06-10-10-55-21.jpg)
+![](http://onru0wbs0.bkt.clouddn.com/android/2017-06-10-10-55-21.jpg)
 
 以 Android SDK 为例（主要是我只会Android）
 ## 集成SDK
