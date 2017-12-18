@@ -20,6 +20,11 @@
 * Linux
   - [linux 解压缩命令](./linux/compress.md)
   - [vim 常用的命令](./linux/vim.md)
+  - [常用配置](./linux/common-config.md)
+  - [安装nodejs](./linux/nodejs-install.md)
+  - [安装PHP](./linux/php-install.md)
+  - [Ubuntu](./linux/ubuntu-setup.md)
+  - [SSH](./linux/ssh.md)
 * Docker
   - [Docker 安装](./docker/install.md)
 * 其他
