@@ -13,4 +13,4 @@ https://github.com/anmoljagetia/Flatabulous
 - Mysql管理：[DBeaver](https://dbeaver.jkiss.org/download/)、MySQL Workbench
 - 截图工具：Shutter
 
-还有常见的网易云音乐、搜狗输入法、Firefoc、Chrome
+还有常见的网易云音乐、搜狗输入法、Firefox、Chrome 等。
