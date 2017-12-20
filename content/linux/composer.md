@@ -7,4 +7,5 @@ composer config -g repo.packagist composer https://packagist.laravel-china.org
 ```
 
 https://getcomposer.org/download/
+
 https://laravel-china.org/composer
