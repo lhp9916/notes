@@ -24,6 +24,7 @@
   - [安装nodejs](./linux/nodejs-install.md)
   - [安装PHP](./linux/php-install.md)
   - [Ubuntu](./linux/ubuntu-setup.md)
+  - [安装 GNOME 桌面](./linux/gnome-shell.md)
   - [SSH](./linux/ssh.md)
 * Docker
   - [Docker 安装](./docker/install.md)
