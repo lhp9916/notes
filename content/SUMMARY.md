@@ -26,6 +26,7 @@
   - [Ubuntu](./linux/ubuntu-setup.md)
   - [安装 GNOME 桌面](./linux/gnome-shell.md)
   - [SSH](./linux/ssh.md)
+  - [进程管理器 - Supervisor](./linux/supervisor.md)
 * Docker
   - [Docker 安装](./docker/install.md)
 * 其他
