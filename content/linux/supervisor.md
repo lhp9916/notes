@@ -40,3 +40,5 @@ Linux 查看进程小技巧
 ps aux | grep xxx
 ```
 如 `ps aux | grep horizon`.
+
+[线上部署 Horizon](https://d.laravel-china.org/docs/5.5/horizon#deploying-horizon)
