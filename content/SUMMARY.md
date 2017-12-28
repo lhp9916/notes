@@ -27,6 +27,7 @@
   - [安装 GNOME 桌面](./linux/gnome-shell.md)
   - [SSH](./linux/ssh.md)
   - [进程管理器 - Supervisor](./linux/supervisor.md)
+  - [文件传输](./linux/file-transfer.md)
 * Docker
   - [Docker 安装](./docker/install.md)
 * 其他
