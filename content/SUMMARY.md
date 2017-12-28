@@ -28,6 +28,9 @@
   - [SSH](./linux/ssh.md)
   - [进程管理器 - Supervisor](./linux/supervisor.md)
   - [文件传输](./linux/file-transfer.md)
+* Git
+  - [git 打标签](./git/tag.md)
+  - [搭建局域网的 Git 服务器](./git/git-server.md)
 * Docker
   - [Docker 安装](./docker/install.md)
 * 其他
@@ -35,4 +38,3 @@
   - [nginx SSL 配置](./nginx/ssl.md)
   - [如何选择开源许可证？](./License/how-to-select.md)
   - [Restful API](./Restful-API/introduction.md)
-  - [git 打标签](./git/tag.md)
