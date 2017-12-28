@@ -35,7 +35,7 @@
 `.zshrc`
 ```
 alias gs="git status"
-alias gc="git commit -m "
+alias gc="git commit -a -v"
 alias gaa="git add ."
 alias gp="git push"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -46,6 +46,7 @@ alias gll="git log --graph --abbrev-commit --decorate --all --format=format:'%C(
 ```
 set nocompatible
 syntax on
+set number
 set t_CO=256
 set linespace=16
 set autowriteall
