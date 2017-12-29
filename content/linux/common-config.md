@@ -2,10 +2,12 @@
 
 ## sublime
 ```
-"font_face": "Fira Code",
-"font_size": 11,
-"line_padding_bottom": 5,
-"line_padding_top": 5,
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "theme": "Adaptive.sublime-theme",
+    "font_face": "Fira Code",
+    "font_size": 11,
+    "line_padding_bottom": 5,
+    "line_padding_top": 5,
 ```
 
 ## .gitconfig
