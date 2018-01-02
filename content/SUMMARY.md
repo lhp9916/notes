@@ -30,7 +30,7 @@
   - [文件传输](./linux/file-transfer.md)
 * Git
   - [git 打标签](./git/tag.md)
-  - [搭建局域网的 Git 服务器](./git/git-server.md)
+  - [搭建 Git 服务器](./git/git-server.md)
 * Docker
   - [Docker 安装](./docker/install.md)
 * 其他
