@@ -17,3 +17,4 @@
 [spatie/laravel-permission](https://github.com/spatie/laravel-permission) | Associate users with permissions and roles
 [summerblue/administrator](https://github.com/summerblue/administrator) | 后台快速生成工具
 [viacreative/sudo-su](https://github.com/viacreative/sudo-su) | 快速用户切换
+[barryvdh/laravel-cors](https://github.com/barryvdh/laravel-cors) | 解决跨域问题
