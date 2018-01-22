@@ -50,10 +50,12 @@ function homestead() {
 ```
 `.bash_aliases`
 ```
-alias vm="homestead ssh"
+alias vm='ssh vagrant@127.0.0.1 -p 2222'
 
 # laravel
 alias art="php artisan"
+alias serve='php artisan serve'
+alias tinker='php artisan tinker'
 
 # git
 alias gs="git status"
