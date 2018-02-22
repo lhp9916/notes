@@ -26,6 +26,7 @@
   - [Ubuntu](./linux/ubuntu-setup.md)
   - [安装 GNOME 桌面](./linux/gnome-shell.md)
   - [SSH](./linux/ssh.md)
+  - [自建ss服务](./linux/ss.md)
   - [进程管理器 - Supervisor](./linux/supervisor.md)
   - [文件传输](./linux/file-transfer.md)
 * Git
