@@ -1,12 +1,6 @@
 # Summary
 
 * [前言](README.md)
-* Android
-  - [循环任务](./android/postDelayed.md)
-  - [分类整理 layout 布局文件](./android/layout-split.md)
-  - [Android 的拖放机制](./android/drag.md)
-  - [集成腾讯Bugly服务](./android/crash-report.md)
-  - [使用 DownloadManager 下载 App](./android/download-manager.md)
 * Web 前端
   - [跨域请求](./front-end/cors.md)
   - [gulp 压缩图片](./front-end/gulp-imagemin.md)
@@ -34,9 +28,8 @@
 * Git
   - [git 打标签](./git/tag.md)
   - [搭建 Git 服务器](./git/git-server.md)
-* Docker
-  - [Docker 安装](./docker/install.md)
 * 其他
+  - [Docker 安装](./docker/install.md)
   - [nginx 配置虚拟主机](./nginx/vhost.md)
   - [nginx SSL 配置](./nginx/ssl.md)
   - [如何选择开源许可证？](./License/how-to-select.md)
