@@ -29,6 +29,8 @@
   - [自建ss服务](./linux/ss.md)
   - [进程管理器 - Supervisor](./linux/supervisor.md)
   - [文件传输](./linux/file-transfer.md)
+* LNMP
+  - [ab 压力测试](./lnmp/ab.md)  
 * Git
   - [git 打标签](./git/tag.md)
   - [搭建 Git 服务器](./git/git-server.md)
