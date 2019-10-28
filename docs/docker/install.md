@@ -8,18 +8,18 @@ curl -sSL https://get.docker.com/ | sh
 
 不过，由于“墙”的原因，在国内使用这个脚本可能会出现某些下载出现错误的情况。国内的一些云服务商提供了这个脚本的修改版本，使其使用国内的 Docker 软件源镜像安装，这样就避免了墙的干扰。
 
-### DaoCloud 的安装脚本
+- DaoCloud 的安装脚本
 ```bash
 curl -sSL https://get.daocloud.io/docker | sh
 ```
-
-### Docker 中国官方镜像加速
-https://www.docker-cn.com/registry-mirror
-
-为了永久性保留更改，您可以修改 /etc/docker/daemon.json 文件并添加上 registry-mirrors 键值。
+- Ubuntu
+```shell
+sudo apt install docker.io
+sudo usermod -aG docker your-user
 ```
-{
-  "registry-mirrors": ["https://registry.docker-cn.com"]
-}
+
+## Docker Compose
 ```
-修改保存后重启 Docker 以使配置生效。
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+```

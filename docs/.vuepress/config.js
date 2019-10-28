@@ -5,7 +5,8 @@ module.exports = {
     sidebar: [{
         title: 'Docker',
         children: [
-          '/docker/install'
+          '/docker/install',
+          '/docker/self-services'
         ]
       },
       {
