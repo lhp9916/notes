@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>使用 Docker 快速搭建服务 | lhp&#39;s notes</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/notes/assets/css/0.styles.f677110a.css" as="style"><link rel="preload" href="/notes/assets/js/app.50cf4f91.js" as="script"><link rel="preload" href="/notes/assets/js/2.21581479.js" as="script"><link rel="preload" href="/notes/assets/js/14.51111682.js" as="script"><link rel="prefetch" href="/notes/assets/js/10.8013c861.js"><link rel="prefetch" href="/notes/assets/js/11.27be2d3c.js"><link rel="prefetch" href="/notes/assets/js/12.76ab7ad8.js"><link rel="prefetch" href="/notes/assets/js/13.8cbe9f80.js"><link rel="prefetch" href="/notes/assets/js/15.1f38ba4a.js"><link rel="prefetch" href="/notes/assets/js/16.67b598a0.js"><link rel="prefetch" href="/notes/assets/js/17.4b3780b9.js"><link rel="prefetch" href="/notes/assets/js/18.f8bc50b0.js"><link rel="prefetch" href="/notes/assets/js/19.9f065b0a.js"><link rel="prefetch" href="/notes/assets/js/20.074f1f78.js"><link rel="prefetch" href="/notes/assets/js/21.5bf97fb2.js"><link rel="prefetch" href="/notes/assets/js/22.756359a9.js"><link rel="prefetch" href="/notes/assets/js/23.dd7f78c9.js"><link rel="prefetch" href="/notes/assets/js/24.97f3485c.js"><link rel="prefetch" href="/notes/assets/js/25.2b96b588.js"><link rel="prefetch" href="/notes/assets/js/26.b91e6b99.js"><link rel="prefetch" href="/notes/assets/js/27.1531d979.js"><link rel="prefetch" href="/notes/assets/js/28.bb79b471.js"><link rel="prefetch" href="/notes/assets/js/29.9d17a19e.js"><link rel="prefetch" href="/notes/assets/js/3.de1a5954.js"><link rel="prefetch" href="/notes/assets/js/30.777e3384.js"><link rel="prefetch" href="/notes/assets/js/31.65ca796d.js"><link rel="prefetch" href="/notes/assets/js/32.025f5f2d.js"><link rel="prefetch" href="/notes/assets/js/33.2ad9ffdd.js"><link rel="prefetch" href="/notes/assets/js/34.34a442b3.js"><link rel="prefetch" href="/notes/assets/js/35.7f92eae4.js"><link rel="prefetch" href="/notes/assets/js/36.de9382be.js"><link rel="prefetch" href="/notes/assets/js/37.c2aba5c2.js"><link rel="prefetch" href="/notes/assets/js/38.da845d97.js"><link rel="prefetch" href="/notes/assets/js/39.4fdf3f0a.js"><link rel="prefetch" href="/notes/assets/js/4.04458bdc.js"><link rel="prefetch" href="/notes/assets/js/40.b156602a.js"><link rel="prefetch" href="/notes/assets/js/41.2db4f962.js"><link rel="prefetch" href="/notes/assets/js/42.27d78860.js"><link rel="prefetch" href="/notes/assets/js/5.a0c26eb3.js"><link rel="prefetch" href="/notes/assets/js/6.73c063ed.js"><link rel="prefetch" href="/notes/assets/js/7.5cbccfaf.js"><link rel="prefetch" href="/notes/assets/js/8.de244959.js"><link rel="prefetch" href="/notes/assets/js/9.977b494c.js">
+    <link rel="stylesheet" href="/notes/assets/css/0.styles.f677110a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/notes/" class="home-link router-link-active"><!----> <span class="site-name">lhp's notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Docker</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/notes/docker/install.html" class="sidebar-link">Docker 安装</a></li><li><a href="/notes/docker/self-services.html" aria-current="page" class="active sidebar-link">使用 Docker 快速搭建服务</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/notes/docker/self-services.html#mysql" class="sidebar-link">MySql</a></li><li class="sidebar-sub-header"><a href="/notes/docker/self-services.html#gitlab-ce" class="sidebar-link">Gitlab CE</a></li><li class="sidebar-sub-header"><a href="/notes/docker/self-services.html#gitea" class="sidebar-link">Gitea</a></li><li class="sidebar-sub-header"><a href="/notes/docker/self-services.html#jenkins" class="sidebar-link">Jenkins</a></li><li class="sidebar-sub-header"><a href="/notes/docker/self-services.html#wordpress" class="sidebar-link">Wordpress</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Git</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Web 前端</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Laravel</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Linux</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Other</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="使用-docker-快速搭建服务"><a href="#使用-docker-快速搭建服务" class="header-anchor">#</a> 使用 Docker 快速搭建服务</h1> <h2 id="mysql"><a href="#mysql" class="header-anchor">#</a> MySql</h2> <div class="language-shell extra-class"><pre class="language-shell"><code>docker run -d --name mysql5.6 -v mysql5.6:/var/lib/mysql -e <span class="token assign-left variable">MYSQL_ROOT_PASSWORD</span><span class="token operator">=</span>root -p <span class="token number">3306</span>:3306 mysql:5.6
+
+docker run -d --name mysql5.7 -v mysql5.7:/var/lib/mysql -e <span class="token assign-left variable">MYSQL_ROOT_PASSWORD</span><span class="token operator">=</span>root -p <span class="token number">3306</span>:3306 mysql:5.7
+</code></pre></div><h2 id="gitlab-ce"><a href="#gitlab-ce" class="header-anchor">#</a> Gitlab CE</h2> <div class="language-shell extra-class"><pre class="language-shell"><code>docker run <span class="token punctuation">\</span>
+	--publish <span class="token number">8080</span>:80 --publish <span class="token number">2222</span>:22 <span class="token punctuation">\</span>
+	--name gitlab <span class="token punctuation">\</span>
+	--volume /srv/gitlab/config:/etc/gitlab <span class="token punctuation">\</span>
+	--volume /srv/gitlab/logs:/var/log/gitlab <span class="token punctuation">\</span>
+	--volume /srv/gitlab/data:/var/opt/gitlab <span class="token punctuation">\</span>
+	-d gitlab/gitlab-ce:latest
+</code></pre></div><h2 id="gitea"><a href="#gitea" class="header-anchor">#</a> Gitea</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 下载镜像</span>
+docker pull gitea/gitea:latest
+
+<span class="token comment"># 创建数据卷用于持久化数据</span>
+docker volume create gitea
+
+<span class="token comment"># 启动gitea</span>
+docker run -d -p <span class="token number">2222</span>:22 -p <span class="token number">3000</span>:3000 -v gitea:/data --name<span class="token operator">=</span>gitea gitea/gitea:latest
+</code></pre></div><h2 id="jenkins"><a href="#jenkins" class="header-anchor">#</a> Jenkins</h2> <div class="language-shell extra-class"><pre class="language-shell"><code>docker run -v jenkins_home:/var/jenkins_home -p <span class="token number">8080</span>:8080 -p <span class="token number">50000</span>:50000 --name<span class="token operator">=</span>jenkins jenkins/jenkins:lts
+</code></pre></div><h2 id="wordpress"><a href="#wordpress" class="header-anchor">#</a> Wordpress</h2> <p><code>docker-compose.yml</code></p> <div class="language- extra-class"><pre class="language-text"><code>version: &quot;1&quot;
+services:
+
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - &quot;8000:80&quot;
+     restart: always
+     volumes:
+       - site:/var/www/html
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+volumes:
+    db_data:
+    site
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/notes/docker/install.html" class="prev">
+        Docker 安装
+      </a></span> <span class="next"><a href="/notes/git/git-server.html">
+        搭建 Git 服务器
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/notes/assets/js/app.50cf4f91.js" defer></script><script src="/notes/assets/js/2.21581479.js" defer></script><script src="/notes/assets/js/14.51111682.js" defer></script>
+  </body>
+</html>
